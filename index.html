@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Samiya Jannath — Digital Marketing learner and creative portfolio.">
+  <title>Samiya Jannath | Portfolio</title>
+  <style>
+    :root{--cream:#f3eee5;--paper:#fbf9f5;--ink:#171614;--muted:#746f66;--line:#ddd5c9;--accent:#a78b68}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.65}
+    a{color:inherit;text-decoration:none}
+    .wrap{width:min(1120px,90%);margin:auto}
+    header{position:sticky;top:0;background:rgba(243,238,229,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);z-index:5}
+    nav{display:flex;justify-content:space-between;align-items:center;min-height:72px;gap:20px}
+    .brand{font-family:Georgia,serif;font-size:23px;font-weight:bold;letter-spacing:.4px}
+    .navlinks{display:flex;gap:25px;font-size:13px;color:var(--muted)}
+    .navlinks a:hover{color:var(--ink)}
+    .hero{display:grid;grid-template-columns:1.05fr .85fr;gap:70px;align-items:center;padding:82px 0 88px}
+    .eyebrow{text-transform:uppercase;letter-spacing:3px;font-size:11px;color:var(--accent);font-weight:bold}
+    h1{font:clamp(44px,7vw,76px)/1.04 Georgia,serif;margin:18px 0}
+    h1 span{font-style:italic;color:#8b7357}
+    .lead{max-width:540px;color:var(--muted);font-size:17px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+    .btn{padding:13px 22px;border:1px solid var(--ink);font-size:13px;letter-spacing:.5px;display:inline-block}
+    .btn.dark{background:var(--ink);color:white}.btn:hover{transform:translateY(-2px)}
+    .portrait{background:#e6ded2;padding:14px;max-width:410px;margin-left:auto;box-shadow:18px 18px 0 #d5c8b6}
+    .portrait img{display:block;width:100%;height:520px;object-fit:cover;object-position:center 25%}
+    section{padding:76px 0;border-top:1px solid var(--line)}
+    .section-label{font-size:11px;text-transform:uppercase;letter-spacing:3px;color:var(--accent);font-weight:bold}
+    h2{font:clamp(32px,4vw,46px)/1.15 Georgia,serif;margin:10px 0 24px}
+    .about-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:65px}
+    .about-text{color:var(--muted);max-width:680px}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}
+    .card{background:var(--paper);border:1px solid var(--line);padding:24px;min-height:160px}
+    .card .num{font:28px Georgia,serif;color:var(--accent)}
+    .card h3{font:21px Georgia,serif;margin:12px 0 7px}
+    .card p{font-size:13px;color:var(--muted);margin:0}
+    .project{background:var(--ink);color:var(--paper);padding:32px;display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center;margin-top:25px}
+    .project p{color:#c8c0b5}
+    .project-tag{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#c4a987}
+    .contact{background:var(--paper);padding:38px;border:1px solid var(--line);display:flex;justify-content:space-between;gap:30px;align-items:center}
+    .contact p{color:var(--muted);margin-bottom:0}
+    footer{padding:25px 0;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:15px}
+    @media(max-width:760px){.navlinks{gap:12px;font-size:11px}.hero{grid-template-columns:1fr;gap:38px;padding:55px 0}.portrait{margin:0;max-width:100%}.portrait img{height:460px}.about-grid,.project{grid-template-columns:1fr;gap:18px}.cards{grid-template-columns:1fr}.contact{display:block}.contact .btn{margin-top:20px}section{padding:55px 0}}
+    @media(max-width:430px){.navlinks{gap:8px}.navlinks a{font-size:10px}.brand{font-size:19px}}
+  </style>
+</head>
+<body>
+<header><nav class="wrap">
+  <a class="brand" href="#home">Samiya Jannath<span style="color:#a78b68">.</span></a>
+  <div class="navlinks"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
+</nav></header>
+<main>
+  <div class="wrap hero" id="home">
+    <div>
+      <div class="eyebrow">Welcome to my portfolio</div>
+      <h1>Creative ideas.<br><span>Meaningful</span> impact.</h1>
+      <p class="lead">Hello, I’m Samiya Jannath. I’m learning Digital Marketing with AI and building my skills in creative design, social media content, and online branding.</p>
+      <div class="actions"><a class="btn dark" href="#projects">Explore my work</a><a class="btn" href="#contact">Contact me</a></div>
+    </div>
+    <div class="portrait"><img src="assets/profile.jpg" alt="Portrait of Samiya Jannath"></div>
+  </div>
+
+  <section id="about"><div class="wrap about-grid">
+    <div><div class="section-label">01 / About me</div><h2>A little about<br>my journey.</h2></div>
+    <div class="about-text"><p>I’m an aspiring digital marketer who enjoys learning new tools and turning ideas into clear, engaging content. I’m currently developing practical skills through learning and personal projects.</p><p>My goal is to keep improving, create thoughtful digital experiences, and help brands communicate with their audiences.</p></div>
+  </div></section>
+
+  <section id="skills"><div class="wrap">
+    <div class="section-label">02 / What I’m learning</div><h2>Skills & interests</h2>
+    <div class="cards">
+      <article class="card"><div class="num">01</div><h3>Social Media</h3><p>Social media content planning and page support.</p></article>
+      <article class="card"><div class="num">02</div><h3>Canva Design</h3><p>Learning to create clean posts and promotional graphics.</p></article>
+      <article class="card"><div class="num">03</div><h3>AI Tools</h3><p>Exploring AI tools for creative content and productivity.</p></article>
+      <article class="card"><div class="num">04</div><h3>Content Writing</h3><p>Writing simple captions and marketing copy.</p></article>
+      <article class="card"><div class="num">05</div><h3>Branding</h3><p>Learning brand identity and consistent visual style.</p></article>
+      <article class="card"><div class="num">06</div><h3>Video Content</h3><p>Practising short-form social media video ideas.</p></article>
+    </div>
+  </div></section>
+
+  <section id="projects"><div class="wrap">
+    <div class="section-label">03 / Selected work</div><h2>Projects & practice</h2>
+    <div class="project">
+      <div><div class="project-tag">Personal practice project</div><h2 style="margin-bottom:8px">Zyra</h2><p>A fashion page concept focused on clothing, modest fashion, and a neat, premium visual identity.</p></div>
+      <div><div class="project-tag">What I practise</div><p>• Social media post concepts<br>• Product captions and content ideas<br>• Brand presentation and page identity</p></div>
+    </div>
+    <p style="font-size:12px;color:#746f66;margin-top:14px">More project images and links can be added as your work grows.</p>
+  </div></section>
+
+  <section id="contact"><div class="wrap">
+    <div class="contact"><div><div class="section-label">04 / Get in touch</div><h2 style="margin-bottom:8px">Let’s connect.</h2><p>Email: digitmarketersamiya@gmail.com</p></div><a class="btn dark" href="mailto:digitmarketersamiya@gmail.com">Send an email</a></div>
+  </div></section>
+</main>
+<footer class="wrap"><span>© 2026 Samiya Jannath</span><span>Personal Portfolio</span></footer>
+</body></html>
